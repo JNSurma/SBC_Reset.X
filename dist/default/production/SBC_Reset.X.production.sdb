@@ -1,0 +1,20 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F615 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"32 C:\Users\Jeremy\Documents\Microchip\SBC_Reset.X\SBC_Reset.c
+[v _main main `(i  1 e 2 0 ]
+"1403 C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h
+[v _TRISIO TRISIO `VEuc  1 e 1 @133 ]
+"2295
+[v _GP2 GP2 `VEb  1 e 0 @42 ]
+"32 C:\Users\Jeremy\Documents\Microchip\SBC_Reset.X\SBC_Reset.c
+[v _main main `(i  1 e 2 0 ]
+{
+"42
+} 0

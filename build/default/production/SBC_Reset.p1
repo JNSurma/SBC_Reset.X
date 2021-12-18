@@ -1,0 +1,186 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"1403 C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1403: extern volatile unsigned char TRISIO __attribute__((address(0x085)));
+[v _TRISIO `Vuc ~T0 @X0 0 e@133 ]
+"2295
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 2295: extern volatile __bit GP2 __attribute__((address(0x2A)));
+[v _GP2 `Vb ~T0 @X0 0 e@42 ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"20 SBC_Reset.c
+[p x FOSC  =  INTOSCIO    ]
+"21
+[p x WDTE  =  OFF         ]
+"22
+[p x PWRTE  =  OFF       ]
+"23
+[p x MCLRE  =  ON        ]
+"24
+[p x CP  =  OFF          ]
+"25
+[p x IOSCFS  =  8MHZ     ]
+"26
+[p x BOREN  =  ON        ]
+"55 C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 55: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"62
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 62: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"69
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 69: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"76
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 76: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"162
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 162: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"169
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 169: __asm("GPIO equ 05h");
+[; <" GPIO equ 05h ;# ">
+"174
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 174: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"419
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 419: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"426
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 426: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"504
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 504: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"578
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 578: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"585
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 585: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"592
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 592: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"599
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 599: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"670
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 670: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"677
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 677: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"753
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 753: __asm("CCPR1 equ 013h");
+[; <" CCPR1 equ 013h ;# ">
+"760
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 760: __asm("CCPR1L equ 013h");
+[; <" CCPR1L equ 013h ;# ">
+"767
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 767: __asm("CCPR1H equ 014h");
+[; <" CCPR1H equ 014h ;# ">
+"774
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 774: __asm("CCP1CON equ 015h");
+[; <" CCP1CON equ 015h ;# ">
+"845
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 845: __asm("PWM1CON equ 016h");
+[; <" PWM1CON equ 016h ;# ">
+"915
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 915: __asm("ECCPAS equ 017h");
+[; <" ECCPAS equ 017h ;# ">
+"997
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 997: __asm("VRCON equ 019h");
+[; <" VRCON equ 019h ;# ">
+"1084
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1084: __asm("CMCON0 equ 01Ah");
+[; <" CMCON0 equ 01Ah ;# ">
+"1184
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1184: __asm("CMCON1 equ 01Ch");
+[; <" CMCON1 equ 01Ch ;# ">
+"1238
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1238: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1245
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1245: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1335
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1335: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1405
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1405: __asm("TRISIO equ 085h");
+[; <" TRISIO equ 085h ;# ">
+"1410
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1410: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1503
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1503: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1577
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1577: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1611
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1611: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1663
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1663: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1670
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1670: __asm("APFCON equ 093h");
+[; <" APFCON equ 093h ;# ">
+"1703
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1703: __asm("WPU equ 095h");
+[; <" WPU equ 095h ;# ">
+"1708
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1708: __asm("WPUA equ 095h");
+[; <" WPUA equ 095h ;# ">
+"1857
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1857: __asm("IOC equ 096h");
+[; <" IOC equ 096h ;# ">
+"1862
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 1862: __asm("IOCA equ 096h");
+[; <" IOCA equ 096h ;# ">
+"2031
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 2031: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2038
+[; ;C:/Users/Jeremy/.mchp_packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8\pic\include\proc\pic12f615.h: 2038: __asm("ANSEL equ 09Fh");
+[; <" ANSEL equ 09Fh ;# ">
+[v $root$_main `(v ~T0 @X0 0 e ]
+"32 SBC_Reset.c
+[; ;SBC_Reset.c: 32: int main()
+[v _main `(i ~T0 @X0 1 ef ]
+"33
+[; ;SBC_Reset.c: 33: {
+{
+[e :U _main ]
+[f ]
+"34
+[; ;SBC_Reset.c: 34:     TRISIO = 0b00000000;
+[e = _TRISIO -> -> 0 `i `uc ]
+"37
+[; ;SBC_Reset.c: 37:     GP2 = 0;
+[e = _GP2 -> -> 0 `i `b ]
+"38
+[; ;SBC_Reset.c: 38:     _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"39
+[; ;SBC_Reset.c: 39:     GP2 = 1;
+[e = _GP2 -> -> 1 `i `b ]
+"40
+[; ;SBC_Reset.c: 40:     while(1){};
+[e :U 85 ]
+{
+}
+[e :U 84 ]
+[e $U 85  ]
+[e :U 86 ]
+"41
+[; ;SBC_Reset.c: 41: return 0;
+[e ) -> 0 `i ]
+[e $UE 83  ]
+"42
+[; ;SBC_Reset.c: 42: }
+[e :UE 83 ]
+}
